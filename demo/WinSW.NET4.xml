@@ -8,5 +8,5 @@
 
     <!-- we need to execute java -jar ./XXX.jar -->
     <executable>java</executable>
-    <arguments>-jar "%BASE%\connector.jar -Dspring.profiles.active=non-live</arguments>
+    <arguments>-jar "%BASE%\connector.jar</arguments>
 </configuration>
