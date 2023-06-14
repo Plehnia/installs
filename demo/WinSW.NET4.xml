@@ -1,0 +1,12 @@
+<configuration>
+    <!-- ID of the service. It should be unique accross the Windows system-->
+    <id>CSOD-SAGE-CONNECTOR_SERVICE</id>
+    <!-- Display name of the service -->
+    <name>Connector between Cornerstone and Sage</name>
+    <!-- Service description -->
+    <description>Cornerstone and Sage connector Service</description>
+
+    <!-- we need to execute java -jar ./XXX.jar -->
+    <executable>java</executable>
+    <arguments>-jar "%BASE%\connector.jar -Dspring.profiles.active=non-live</arguments>
+</configuration>
