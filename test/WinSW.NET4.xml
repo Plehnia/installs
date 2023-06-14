@@ -1,0 +1,12 @@
+<configuration>
+    <!-- ID of the service. It should be unique accross the Windows system-->
+    <id>RC-SAGE-SERVICE</id>
+    <!-- Display name of the service -->
+    <name>My Spring Boot App</name>
+    <!-- Service description -->
+    <description>Spring Boot Service</description>
+
+    <!-- we need to execute java -jar ./XXX.jar -->
+    <executable>java</executable>
+    <arguments>-jar "%BASE%\demo.jar</arguments>
+</configuration>
