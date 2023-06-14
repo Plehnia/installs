@@ -1,6 +1,6 @@
 <configuration>
     <!-- ID of the service. It should be unique accross the Windows system-->
-    <id>CSOD-SAGE-CONNECTOR_SERVICE</id>
+    <id>RC-CONNECTOR-SERVICE</id>
     <!-- Display name of the service -->
     <name>Connector between Cornerstone and Sage</name>
     <!-- Service description -->
